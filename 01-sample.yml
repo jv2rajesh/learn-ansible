@@ -11,6 +11,7 @@
       ansible.builtin.systemd:
          name: nginx
          state: started
+         enabled: yes
 
 
  # become : true  (gives privileges like root user)
