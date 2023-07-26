@@ -5,5 +5,12 @@
   tasks:
     - name: install nginx
       ansible.builtin.yum:
-        name: httpd
+        name: nginx
         state: latest
+    #- name: start nginx
+     # ansible.builtin.systemd:
+       #  name: nginx
+        # state:
+
+
+ # become : true  (gives privileges like root user)
