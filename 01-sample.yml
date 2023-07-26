@@ -16,3 +16,9 @@
 
  # become : true  (gives privileges like root user)
  # latest &  Started are commands
+
+- name: Install nginx
+  hosts: WEB
+  become: true
+  roles:
+    - sample
