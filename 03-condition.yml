@@ -15,4 +15,4 @@
     - name: print vegetable name
       ansible.builtin.debug:
         msg: vegetable name - carrot
-      when: vegetable is false
+      when: vegetable is true
