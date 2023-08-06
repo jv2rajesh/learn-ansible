@@ -1,6 +1,7 @@
 - name: condition example
   hosts: all
-  become: yes
+  connection: local
+
   vars:
     fruit: true
     vegetable: false
