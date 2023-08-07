@@ -16,4 +16,4 @@
         msg: Fruit name - "{{ item }}"
       loop:
         - banana
-          - kiwi
+        - kiwi
