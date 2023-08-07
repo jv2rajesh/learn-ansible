@@ -1,1 +1,1 @@
-fruit name: {{ fruit_name }}
+Fruit Name - {{ fruit_name }}
