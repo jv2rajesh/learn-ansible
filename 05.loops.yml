@@ -1,5 +1,5 @@
 - name: Demo on Loops
-  hots: localhost
+  hosts: localhost
   connection: local
   vars:
     fruits:
