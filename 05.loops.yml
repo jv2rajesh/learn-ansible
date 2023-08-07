@@ -9,4 +9,4 @@
     - name: Print fruits
       ansible.builtin.debug:
         msg: Fruit name - "{{ items }}"
- #     loop: "{{ fruits }}"
+      loop: "{{ fruits }}"
