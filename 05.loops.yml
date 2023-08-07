@@ -8,12 +8,12 @@
   tasks:
     - name: Print fruits
       ansible.builtin.debug:
-        msg: Fruit name - "{{ items }}"
+        msg: Fruit name - "{{ item }}"
       loop: "{{ fruits }}"
 
     - name: Print fruit local variables
       ansible.builtin.debug:
-        msg: Fruit name - "{{ items }}"
+        msg: Fruit name - "{{ item }}"
       loop:
         - banana
         - kiwi
